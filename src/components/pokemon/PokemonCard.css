@@ -1,0 +1,22 @@
+.card {
+  background: #a80b00;
+}
+
+.card-body {
+  display: flex;
+}
+
+img {
+  width: 50%;
+  height: 50%;
+}
+
+.pokemon-name {
+  color: white;
+  margin-top: 10px;
+}
+
+.pokemon-number {
+  color: white;
+  margin-top: 10px;
+}
