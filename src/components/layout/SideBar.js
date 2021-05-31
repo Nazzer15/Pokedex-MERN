@@ -1,5 +1,4 @@
 import React from "react";
-import moduleName from "module";
 
 import "./SideBar.css";
 import PokemonList from "../pokemon/PokemonList";

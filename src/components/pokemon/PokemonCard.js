@@ -1,9 +1,10 @@
-import React from "react";
+import React, { useState } from "react";
 
 import "./PokemonCard.css";
 import logo from "../../logo.svg";
 
 function PokemonCard({ pokemon }) {
+
   return (
     <div>
       {pokemon.map((p) => (
@@ -11,12 +12,12 @@ function PokemonCard({ pokemon }) {
           <div className="card-body">
             <div className="row">
               <div className="col-md-4 text-center">
-                <img className="img-thumbnail" src={logo} alt="Logo" />
+                <img className="img-thumbnail" src='https://github.com/PokeAPI/sprites/blob/master/sprites/pokemon/1.png?raw=true' alt="Logo" />
               </div>
-              <div className="col-md-4 text-center">
-                <h5 key={p} className="pokemon-name">{p}</h5>
+              <div className="col-md-5 text-center">
+                <h5 key={p.name} className="pokemon-name">{p.name} </h5>
               </div>
-              <div className="col-md-4 text-center">
+              <div className="col-md-3 text-center">
                 <p className="pokemon-number">#001</p>
               </div>
             </div>

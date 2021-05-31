@@ -2,4 +2,5 @@
   background: #c7433a;
   display: flex;
   justify-content: center;
+  overflow: scroll;
 }
